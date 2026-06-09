@@ -24,7 +24,7 @@ class ProductRepository():
 
         cursor.execute(
             """
-            INSERTO INTO products (
+            INSERT INTO products (
                 name,
                 description,
                 price,
